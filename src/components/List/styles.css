@@ -1,0 +1,44 @@
+.list__removeIcon {
+  width: 12px;
+  height: 13px;
+  opacity: 0;
+}
+.list li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+.list li.active {
+  background: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.list li i {
+  display: inline-flex;
+  margin-right: 10px;
+}
+.list li i img {
+  width: 18px;
+  height: 18px;
+}
+.list li span {
+  flex: 1;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 10px;
+  white-space: nowrap;
+}
+.list li:hover .list__removeIcon {
+  opacity: 0.5;
+}
+.list li .list__removeIcon {
+  opacity: 0;
+}
+.list li .list__removeIcon:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */

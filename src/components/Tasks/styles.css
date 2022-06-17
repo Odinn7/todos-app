@@ -1,0 +1,85 @@
+.tasks {
+  width: 100%;
+  padding: 0 20px;
+}
+.tasks__title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #64C4ED;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.tasks__title-editIcon {
+  opacity: 0.5;
+  width: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.tasks__title-editIcon:hover {
+  opacity: 1;
+}
+.tasks__items-row {
+  display: flex;
+  align-items: center;
+}
+.tasks__items-row p {
+  font-size: 25px;
+  margin-left: 40px;
+  border: none;
+}
+.tasks__items-row-task {
+  display: flex;
+  align-items: center;
+}
+.tasks__items-row-task:hover .penIcon, .tasks__items-row-task:hover .removeIcon {
+  opacity: 0.8;
+}
+.tasks__items-row-task .penIcon {
+  width: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+  opacity: 0;
+}
+.tasks__items-row-task .removeIcon {
+  cursor: pointer;
+  width: 15px;
+  opacity: 0;
+}
+.tasks .checkbox {
+  width: 0;
+  display: flex;
+  align-items: center;
+}
+.tasks .checkbox input {
+  display: none;
+}
+.tasks .checkbox input:checked + label {
+  background: #4DD599;
+  border-color: #4DD599;
+}
+.tasks .checkbox input:checked + label .checkImg {
+  opacity: 1;
+}
+.tasks .checkbox:hover label {
+  background: #DBDBDB;
+}
+.tasks .checkbox:hover label .checkImg {
+  opacity: 0.2;
+}
+.tasks .checkbox label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #E8E8E8;
+  border-radius: 20px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.tasks .checkbox label .checkImg {
+  width: 15px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

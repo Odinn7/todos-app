@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 3px;
+  width: 250px;
+}
+.form__new {
+  cursor: pointer;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.4;
+}
+.form__new:hover {
+  opacity: 0.9;
+}
+.form__new img {
+  width: 15px;
+  height: 15px;
+}
+.form__block {
+  display: flex;
+  flex-direction: column;
+}
+.form__block .button__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.form__block .button__wrapper-button {
+  width: 125px;
+}
+
+/*# sourceMappingURL=styles.css.map */

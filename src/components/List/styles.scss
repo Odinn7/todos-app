@@ -1,0 +1,57 @@
+.list {
+  $self: &;
+
+  &__removeIcon {
+    width: 12px;
+    height: 13px;
+    opacity: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+
+    &.active {
+      background: #FFFFFF;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+    }
+
+    i {
+      display: inline-flex;
+      margin-right: 10px;
+
+      img {
+        width: 18px;
+        height: 18px;
+      }
+
+    }
+
+    span {
+      flex: 1;
+      align-items: center;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 10px;
+      white-space: nowrap;
+    }
+
+    &:hover #{$self}__removeIcon {
+      opacity: .5;
+    }
+
+    #{$self}__removeIcon {
+      opacity: 0;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+
+  }
+}

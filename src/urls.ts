@@ -1,0 +1,5 @@
+export const REMOVE_ICON_URL = "https://cdn-icons-png.flaticon.com/512/748/748122.png"
+export const BASE_URL = "http://localhost:3001/lists/"
+export const LIST_ICON = "https://cdn-icons-png.flaticon.com/512/839/839608.png"
+export const TASKS_BASE_URL = "http://localhost:3001/tasks/"
+export const PLUS_ICON_URL = "https://img.icons8.com/emoji/344/plus-emoji.png"

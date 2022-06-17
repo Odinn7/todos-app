@@ -1,0 +1,37 @@
+.add-list__popup {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+.add-list__popup input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.add-list__popup input:focus {
+  border-color: #DBDBDB;
+}
+.add-list__popup .button {
+  background: #4DD599;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.add-list__popup .button:hover {
+  background: #30ca86;
+}
+.add-list__popup .button:active {
+  background: #28a970;
+}
+
+/*# sourceMappingURL=styles.css.map */
